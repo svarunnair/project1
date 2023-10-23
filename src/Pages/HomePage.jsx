@@ -111,6 +111,7 @@ function Home() {
   useEffect(()=>{
     dispatch(getData())
   },[])
+  console.log("getData",getData)
 
 
   const navigate=useNavigate()
